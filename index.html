@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTICLES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="mainContainer">
+    <h1>CRUD ARTICLES</h1>
+    <div class="boxes">
+        <div class="boxA">
+            <h3>Create Articles</h3>
+             <form action="" id="form">
+                 <div class="fields">
+                     <div class="title">
+                         <label for="input">Enter  title:</label>
+                         <input type="text" name="input" id="input" placeholder="Enter article title">
+                     </div>
+                     <div class="content">
+                         <label for="content">Write Article:</label>
+                         <textarea name="content" id="content" placeholder="Write Article">
+     
+                         </textarea></div>
+                 </div>
+                 <button id="button">ADD</button>
+             </form>
+         </div>
+     
+         <div class="boxB" id="boxB">No Articles yet</div>
+        </div>
+
+        <div class="foot">
+            <p>No of articles: <span id="span">0</span></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
